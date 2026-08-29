@@ -44,6 +44,7 @@ int main() {
     friendObj.displayPrivateData(myObj);
     friendObj.modifyPrivateData(myObj, 400);
     friendObj.displayPrivateData(myObj);
+    cout<<"hello";
 
     return 0;
 }
