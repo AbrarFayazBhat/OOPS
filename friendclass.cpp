@@ -35,11 +35,14 @@ void displayData(MyClass& obj) {
 
 int main() {
     MyClass myObj(42);
-    FriendClass friendObj;
+    FriendClass friendObj,friendobj2;
 
     // FriendClass can access and modify private members
     friendObj.displayPrivateData(myObj);
     friendObj.modifyPrivateData(myObj, 100);
+    friendObj.displayPrivateData(myObj);
+    friendObj.displayPrivateData(myObj);
+    friendObj.modifyPrivateData(myObj, 400);
     friendObj.displayPrivateData(myObj);
 
     return 0;
