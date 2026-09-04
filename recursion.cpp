@@ -33,7 +33,7 @@ int sumofdigit(int n){
 int main(){
     cout<<fact(5)<<endl;
     cout<<fibonacci(10)<<endl;
-   // reverseorder(10)<<endl;
+    //reverseorder(10)<<endl;
    int result=sumofdigit(111);
     cout<<result;
 }
